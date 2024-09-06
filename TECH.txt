@@ -1,0 +1,55 @@
+Programming Languages:
+>HTML,CSS (FOR FRONTEND)
+>JAVASCRIPT (FOR FRONTEND + bACKEND)
+>SOLIDITY (FOR SMART CONTRACT DEV)
+
+FRAMEEORKS:
+>NODE.JS (FOR SMARTCONTRACT INTEGRATION WITH FRONTEND)
+>HARDHAT (FOR SOLIDITY CODE CAN BE USE IN JS)
+>ETHER.JS (FOR SMART CONTRACT DEPLOYMENT)
+[1:51 AM, 9/5/2024] Pushkr: 1. Potential Impact on the Target Audience
+
+Voters:
+
+Transparency: Verifiable votes.
+
+Accessibility: Remote voting, increased participation.
+
+Security: Immutable, tamper-proof.
+
+NRIs:
+
+Remote Voting: Global participation.
+
+Convenience: Easy engagement.
+
+Governments & Election Commissions:
+
+0
+
+Fraud Reduction: Tamper-proof elections.
+
+Cost Efficiency: Lower infrastructure costs.
+
+Organizations:
+
+Efficient Voting: Secure shareholder/organizational voting.
+
+Benefits of the Solution
+
+Social:
+
+Increased Participation: Inclusive voting.
+
+Fair Elections: Equal opportunity, reduced disenfranchisement.
+Economic:
+
+Cost Reduction: Fewer physical resources.
+
+Streamlined Process: Faster results, fewer disputes.
+
+Environmental:
+
+* Paperless Voting: Reduced waste.
+
+* Energy Efficiency: Lower carbon footprint
