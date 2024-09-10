@@ -85,7 +85,7 @@ async function renderVotePage() {
         // Generate the HTML for each party using the fetched details
         const partyListHTML = parties.map(party => `
             <li class="party-item">
-                <img src="${party.token.toLowerCase()}.png" alt="${party.token} Logo">
+                <img src="images/${party.token.toLowerCase()}.png" alt="${party.token} Logo">
                 <span>${party.party_name} (${party.token})</span>
                 
                <button class="vote-btn" data-party="${party.token}">VOTE
@@ -312,7 +312,7 @@ async  function renderGetDetailsPage() {
                 partyListHTML += `
                     <tr>
                         <th scope="row">${index}</th>
-                        <td><img src="${details.token}.png" alt="${details.party_name}" style="width:50px; height:50px;"></td>
+                        <td><img src="images/${details.token}.png" alt="${details.party_name}" style="width:50px; height:50px;"></td>
                         <td>${details.party_name} (${details.token})</td>
                         <td>${details.area}</td>
                         <td>${details.vote_ct}</td>

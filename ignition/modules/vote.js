@@ -12,8 +12,6 @@ async function main() {
     console.log("Successfully added candidate")
     const details  = await vote.get_details("BJP")
     console.log(details)
-    const contractAddress = await vote.getAddress()
-    fs.writeFileSync('.env', `VOTE_CONTRACT_ADDRESS=${contractAddress}\n`, { flag: 'a' });
 }
 
 

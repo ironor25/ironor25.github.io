@@ -7,8 +7,8 @@ import { abi ,contractAddress} from "./constants.js";
 // connectbutton.onclick=connect
 // votebutton.onclick=vote
 // let text =""
-const private_key = "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"
-const provider =new ethers.providers.JsonRpcProvider("http://127.0.0.1:8545/")
+const private_key = "c5abbb488f7878fcea70e86282261f30a9a89a914e0a922e7ac4f75fce9053a0"
+const provider =new ethers.providers.JsonRpcProvider("https://eth-sepolia.g.alchemy.com/v2/AarJ9NXot4hjtpuSe1jy8Llj_yLWlQG1")
 const signer = new ethers.Wallet(private_key,provider)
 const contract = new ethers.Contract(contractAddress,abi,signer)
 
