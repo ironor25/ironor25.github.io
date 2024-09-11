@@ -306,10 +306,10 @@ async  function renderGetDetailsPage() {
             <thead>
                 <tr>
                 <th scope="col">#</th>
-                <th scope="col">Image</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Party_Logo</th>
+                <th scope="col">Party_Name</th>
+                <th scope="col">Area</th>
+                <th scope="col">Votes</th>
                 </tr>
             </thead>
             <tbody>

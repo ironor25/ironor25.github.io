@@ -557,7 +557,6 @@ input {
     -webkit-transform: translate3d(0, 0, -1em);
     transform: translate3d(0, 0, -1em);
    }
- /* From Uiverse.io by cssbuttons-io */ 
 button {
   position: relative;
   display: inline-block;
@@ -686,7 +685,6 @@ button {
   text-align:center;
 }
 
-/* From Uiverse.io by niat786 */ 
 .vote-btn{
   border: none;
   color: #fff;
@@ -718,7 +716,6 @@ button {
    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
   }
  }
-/* From Uiverse.io by Flowelife */ 
 @keyframes load-loop {
   0% {
     background-position: 100%;
@@ -774,4 +771,31 @@ button {
   left: 0;
   z-index: -1;
   animation: infinite 1.4s load-loop ease;
+}
+
+.op-button {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725AC1;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #725AC1;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #725AC1;
+}
+
+.op-button:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+.op-button:active {
+  transform: scale(0.9);
 }
